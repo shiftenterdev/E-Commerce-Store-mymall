@@ -17,7 +17,7 @@ import switchesImage from '/display/switch-array.webp'
 					<span class="text-k-main">best</span> keyboards
 				</h3>
 				<p class="mt-10 tracking-wide text-black opacity-70 md:mt-6">
-					Located at the heart of Groningen City, Mymall is the premier store for
+					Located at the heart of Groningen City(NL), Mymall is the premier store for
 					high end keyboards, keycaps, desk mats and other Mymall accessories.
 					We have a large showroom and luxury demonstration rooms available for
 					you to browse and experience a wide range of our products. <br />
