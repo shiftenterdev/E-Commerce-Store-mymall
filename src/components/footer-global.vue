@@ -62,7 +62,7 @@ import instagramIcon from '/icons/instagram.svg'
 				<p
 					class="mb-10 text-center tracking-wide opacity-70 md:mb-0 md:w-2/3 md:text-left"
 				>
-					KIIIBS is an all in one stop to fulfill your mechanical keyboard
+					mymall is an all in one stop to fulfill your mechanical keyboard
 					needs. We're a small team of coding lovers and typing specialists who
 					are devoted to helping you get the most out of you setup. Come and
 					visit our demo facility - we're open 7 days a week.
@@ -97,7 +97,7 @@ import instagramIcon from '/icons/instagram.svg'
 			<p
 				class="mt-16 text-center text-sm font-semibold tracking-wide text-white opacity-60 md:text-start"
 			>
-				Copyright 2023. All Rights Reserved
+				Copyright 2025. All Rights Reserved
 			</p>
 		</div>
 	</footer>

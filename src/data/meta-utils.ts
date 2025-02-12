@@ -23,7 +23,7 @@ export function getProductPageMeta(product: product): meta {
 			' ' +
 			capitalize(product.category.slice(0, -1)) +
 			' ' +
-			'| KIIIBS',
+			'| Mymall',
 		description: product.text,
 		image: product.src,
 	}
