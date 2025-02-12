@@ -28,7 +28,7 @@ import instagramIcon from '/icons/instagram.svg'
 					to="/"
 					class="mb-8 cursor-pointer text-4xl font-bold text-white subpixel-antialiased transition duration-300 hover:scale-110 hover:text-k-main md:mb-0 md:text-3xl"
 				>
-					KIIIBS
+					mymall
 				</router-link>
 				<nav
 					class="flex flex-col items-center justify-between gap-6 md:flex-row md:items-start md:gap-10"
