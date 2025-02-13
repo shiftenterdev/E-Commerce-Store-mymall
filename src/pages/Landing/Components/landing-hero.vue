@@ -14,7 +14,7 @@ import mxupImage from '/products/keyboards/up-nobg.webp'
 				class="relative z-10 flex flex-col items-center justify-center pb-6 sm:ml-0 md:ml-10 md:items-start lg:ml-0"
 			>
 				<p class="md:text-md text-sm font-light uppercase tracking-broad">
-					new product
+					nieuw product
 				</p>
 				<h1
 					class="relative mt-4 text-5xl font-semibold uppercase text-white md:text-6xl"
@@ -24,15 +24,15 @@ import mxupImage from '/products/keyboards/up-nobg.webp'
 					Keyboard
 				</h1>
 				<p class="mb-10 mt-5 md:opacity-90">
-					Enjoy a natural, light typing experience and exceptional
+					Geniet van een natuurlijke, lichte typing ervaring en uitstekende
 					<br class="hidden md:inline" />
-					build quality made for the passionate coding
+					build kwaliteit gemaakt voor de gepassioneerde
 					<br class="hidden md:inline" />
 					enthusiast.
 				</p>
 				<ButtonSolid
 					:to="{ name: 'keyboards', params: { id: 2 } }"
-					content="see product"
+					content="bekijk product"
 					color="light"
 					add="font-bold mb-20"
 				/>

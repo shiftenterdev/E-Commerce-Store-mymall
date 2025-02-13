@@ -23,7 +23,7 @@ const props = defineProps<{
 				v-if="props.item.nu"
 				class="lg:text-md text-sm uppercase tracking-broad text-black"
 			>
-				new product
+				nieuw product
 			</p>
 			<h1
 				class="mt-4 text-center text-4xl font-semibold uppercase text-black lg:text-start lg:text-6xl"

@@ -36,7 +36,7 @@ onMounted(() => {
 				v-if="props.item.nu"
 				class="md:text-md text-sm font-light uppercase tracking-broad text-black"
 			>
-				new product
+				nieuw product
 			</p>
 			<h1
 				class="mt-4 text-center text-4xl font-semibold uppercase text-black md:text-start md:text-5xl lg:text-6xl"

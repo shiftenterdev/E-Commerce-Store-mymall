@@ -49,9 +49,9 @@ export const useCartStore = defineStore('cart', {
 				nu: true,
 				header: '"Grrr"',
 				subheader: 'Deskmat',
-				text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+				text: 'De nieuwe XX99 Mark II-toetsenbord is het toppunt van zuivere typering. Het herdefinieert uw premium toetsenbordervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 				features:
-					'The "Grrr" deskmat features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+					'De "Grrr" deskmat heeft een slank aluminium frame, RGB-verlichting en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 				inthebox: [
 					{ count: 1, content: 'Deskmat' },
 					{ count: 1, content: 'Carrying Pouch' },

@@ -13,7 +13,7 @@ const formStore = useFormStore()
 		class="col-span-1 flex h-fit max-h-full w-full flex-col rounded bg-white px-6 py-12 lg:self-start lg:px-10"
 		data-test="checkout-summary"
 	>
-		<h1 class="text-2xl font-bold uppercase text-black">Summary</h1>
+		<h1 class="text-2xl font-bold uppercase text-black">Samenvatting</h1>
 		<div
 			class="my-10 flex h-full w-full flex-col gap-5 overflow-x-hidden overflow-y-scroll"
 		>

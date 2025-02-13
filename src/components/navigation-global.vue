@@ -128,7 +128,7 @@ function hideHamburger(): void {
 					@click="hideHamburger()"
 					data-test="close-hamburger"
 				>
-					Close
+					Sluit
 				</button>
 				<router-link
 					to="/"

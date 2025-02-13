@@ -42,7 +42,7 @@ onBeforeMount(() => {
 				<ButtonSolid
 					:to="{ name: item.category, params: { id: item.id } }"
 					color="light"
-					content="see product"
+					content="bekijk product"
 					size="small"
 				/>
 			</div>

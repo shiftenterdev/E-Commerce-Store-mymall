@@ -61,12 +61,12 @@ import backImage from '/display/cow-back-new.webp'
 						<p
 							class="mb-8 mt-4 text-center tracking-wide md:mb-10 md:text-start"
 						>
-							Upgrade to premium keys that are phenominally built to deliver a
-							truly remarkable typing feel.
+							Upgrade naar premium toetsen die phenominaal zijn gebouwd om een
+							uitstekende typing ervaring te leveren.
 						</p>
 						<ButtonSolid
 							:to="{ name: 'keyboards', params: { id: 1 } }"
-							content="SEE PRODUCT"
+							content="BEKIJK PRODUCT"
 							add="font-semibold hover:rotate-x-3"
 							class="mb-10 self-center md:mb-0 md:self-start"
 						/>
@@ -79,7 +79,7 @@ import backImage from '/display/cow-back-new.webp'
 				<h2 class="text-3xl font-semibold uppercase">Kraken deskmat</h2>
 				<ButtonEmpty
 					:to="{ name: 'deskmats', params: { id: 1 } }"
-					content="see product"
+					content="bekijk product"
 				/>
 			</div>
 			<router-link
@@ -101,7 +101,7 @@ import backImage from '/display/cow-back-new.webp'
 				class="order-5 col-span-3 row-span-2 flex w-full flex-col items-center justify-center gap-6 rounded-md bg-k-grey p-6 text-black md:order-none md:h-full md:items-start md:px-16"
 			>
 				<h2 class="text-3xl font-semibold uppercase">Keycaps</h2>
-				<ButtonEmpty :to="{ path: 'keycaps' }" content="see all" />
+				<ButtonEmpty :to="{ path: 'keycaps' }" content="bekijk alles" />
 			</div>
 		</div>
 	</section>

@@ -41,7 +41,7 @@ import instagramIcon from '/icons/instagram.svg'
 					<router-link
 						class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
 						to="/keyboards"
-						>Keyboards
+						>Toetsenborden
 					</router-link>
 					<router-link
 						class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
@@ -62,10 +62,10 @@ import instagramIcon from '/icons/instagram.svg'
 				<p
 					class="mb-10 text-center tracking-wide opacity-70 md:mb-0 md:w-2/3 md:text-left"
 				>
-					mymall is an all in one stop to fulfill your mechanical keyboard
-					needs. We're a small team of coding lovers and typing specialists who
-					are devoted to helping you get the most out of you setup. Come and
-					visit our demo facility - we're open 7 days a week.
+					mymall is een all in one stop om uw mechanische toetsenbord
+					behoeften te vervullen. We zijn een kleine team van codeliefhebbers en
+					typing specialists die gewijd zijn om u de beste ervaring te bieden.
+					Kom en bezoek onze demo-faciliteit - we zijn open 7 dagen per week.
 				</p>
 				<nav class="flex flex-row gap-4 md:self-end">
 					<a class="transition duration-300 hover:-translate-y-0.5" href="">
@@ -97,7 +97,7 @@ import instagramIcon from '/icons/instagram.svg'
 			<p
 				class="mt-16 text-center text-sm font-semibold tracking-wide text-white opacity-60 md:text-start"
 			>
-				Copyright 2025. All Rights Reserved
+				Copyright 2025. Alle rechten voorbehouden
 			</p>
 		</div>
 	</footer>

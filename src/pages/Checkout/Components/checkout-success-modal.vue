@@ -57,13 +57,13 @@ onBeforeUnmount(() => {
 				<h2
 					class="text-2xl font-bold uppercase text-black md:mt-6 lg:mt-8 lg:text-3xl"
 				>
-					thank you <br />
-					for your order
+					bedankt <br />
+					voor uw bestelling
 				</h2>
 				<p
 					class="text-md mt-4 font-semibold text-black opacity-60 lg:mt-6 lg:text-lg"
 				>
-					You will receive an email confirmation shortly.
+					U ontvangt een e-mailbevestiging in korte tijd.
 				</p>
 				<div
 					class="mb-4 mt-6 flex h-full w-full flex-col overflow-hidden rounded-lg lg:mb-6 lg:mt-8 lg:flex-row lg:items-center"
@@ -110,7 +110,7 @@ onBeforeUnmount(() => {
 							<p
 								class="text-md font-semibold uppercase tracking-wide opacity-90"
 							>
-								Grand Total
+								Grande Totaal
 							</p>
 							<p class="text-md font-semibold lg:text-lg">
 								$ {{ cartStore.getGrandTotal }}
@@ -122,7 +122,7 @@ onBeforeUnmount(() => {
 					to="/"
 					@click="handleClose()"
 					color="light"
-					content="back to home"
+					content="terug naar home"
 					class="mt-6 self-center font-bold"
 					data-test="checkout-success-modal-button"
 				/>

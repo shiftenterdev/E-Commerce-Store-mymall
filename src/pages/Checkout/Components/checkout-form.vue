@@ -12,7 +12,7 @@ const formStore = useFormStore()
 		<h1 class="text-3xl font-bold uppercase text-black">Checkout</h1>
 		<div class="mt-10">
 			<p class="mb-2 font-bold uppercase tracking-wider text-k-main">
-				Billing details
+				Factuurgegevens
 			</p>
 			<div
 				class="flex w-full flex-col items-center gap-4 lg:grid lg:grid-cols-2"
@@ -53,7 +53,7 @@ const formStore = useFormStore()
 
 		<div class="mt-10">
 			<p class="mb-2 font-bold uppercase tracking-wider text-k-main">
-				Shipping Info
+				Verzendgegevens
 			</p>
 			<div
 				class="flex w-full flex-col items-center gap-4 lg:grid lg:grid-cols-2"
@@ -108,9 +108,9 @@ const formStore = useFormStore()
 
 		<div class="mt-10">
 			<p class="mb-2 font-bold uppercase tracking-wider text-k-main">
-				Payment Details
+				Betalingsgegevens
 			</p>
-			<p class="mb-1 font-bold text-black" for="country">Payment Method</p>
+			<p class="mb-1 font-bold text-black" for="country">Betalingswijze</p>
 			<div class="flex w-full flex-col gap-4 lg:grid lg:grid-cols-2">
 				<button
 					class="group flex w-full cursor-pointer flex-row items-center gap-4 rounded border border-black border-opacity-60 p-3 transition-all active:translate-y-0.5"
@@ -122,7 +122,7 @@ const formStore = useFormStore()
 						class="aspect-square h-3 rounded-full border border-black border-opacity-60"
 						:class="{ 'bg-black': !formStore.choseCash }"
 					></div>
-					<span class="font-semibold text-black"> e-Money </span>
+					<span class="font-semibold text-black"> Elektronische betaling </span>
 				</button>
 				<button
 					class="group flex w-full cursor-pointer flex-row items-center gap-4 rounded border border-black border-opacity-60 p-3 transition-all active:translate-y-0.5"
@@ -134,18 +134,18 @@ const formStore = useFormStore()
 						class="aspect-square h-3 rounded-full border border-black border-opacity-60"
 						:class="{ 'bg-black': formStore.choseCash }"
 					></div>
-					<span class="font-semibold text-black"> Cash on Delivery </span>
+					<span class="font-semibold text-black"> Betaling bij levering </span>
 				</button>
 
 				<div class="col-span-2 flex h-40 flex-col">
 					<label class="mb-1 mt-4 font-bold text-black" for="country"
-						>Add a comment</label
+						>Voeg een opmerking toe</label
 					>
 					<textarea
 						class="h-full rounded border border-black border-opacity-60 bg-white p-3 font-Manrope font-semibold text-black outline-none hover:border-k-main"
 						type=""
 						id="comment"
-						placeholder="Your request"
+						placeholder="Je aanvraag"
 						v-model="formStore.comment"
 						required
 						data-test="form-text-area"

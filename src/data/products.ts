@@ -12,9 +12,9 @@ export const products: catalog = {
 			nu: true,
 			header: 'XX59',
 			subheader: 'Keyboard',
-			text: 'The new XX59 keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+			text: 'De nieuwe XX59 toetsenbord is het hoogste punt van zuivere typing. Het definieert uw premium toetsenbord ervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 			features:
-				'The XX59 keyboard features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+				'De XX59 toetsenbord heeft een slank aluminium frame, RGB-verlichting, en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps, en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 			inthebox: [
 				{ count: 1, content: 'Keyboard' },
 				{ count: 1, content: 'KIIBS Carrying Case' },
@@ -33,9 +33,9 @@ export const products: catalog = {
 			nu: false,
 			header: 'ZX9',
 			subheader: 'Keyboard',
-			text: 'The new ZX9 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+			text: 'De nieuwe ZX9 Mark II toetsenbord is het hoogste punt van zuivere typing. Het definieert uw premium toetsenbord ervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 			features:
-				'The ZX9 Mark II keyboard features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+				'De ZX9 Mark II toetsenbord heeft een slank aluminium frame, RGB-verlichting, en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps, en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 			inthebox: [
 				{ count: 1, content: 'Keyboard' },
 				{ count: 1, content: 'KIIBS Carrying Case' },
@@ -54,9 +54,9 @@ export const products: catalog = {
 			nu: false,
 			header: 'XX99 Mark II',
 			subheader: 'Keyboard',
-			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+			text: 'De nieuwe XX99 Mark II toetsenbord is het hoogste punt van zuivere typing. Het definieert uw premium toetsenbord ervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 			features:
-				'The XX99 Mark II keyboard features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+				'De XX99 Mark II toetsenbord heeft een slank aluminium frame, RGB-verlichting, en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps, en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 			inthebox: [
 				{ count: 1, content: 'Keyboard' },
 				{ count: 1, content: 'KIIBS Carrying Case' },
@@ -77,9 +77,9 @@ export const products: catalog = {
 			nu: true,
 			header: 'XX01 Metal',
 			subheader: 'Keycap',
-			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+			text: 'De nieuwe XX99 Mark II toetsenbord is het hoogste punt van zuivere typing. Het definieert uw premium toetsenbord ervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 			features:
-				'The XX01 Metal keycap features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+				'De XX01 Metal keycap heeft een slank aluminium frame, RGB-verlichting, en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps, en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 			inthebox: [{ count: 1, content: 'Metal Keycap' }],
 			price: 599,
 		},
@@ -93,9 +93,9 @@ export const products: catalog = {
 			nu: false,
 			header: 'XX02 Metal',
 			subheader: 'Keycap',
-			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+			text: 'De nieuwe XX99 Mark II toetsenbord is het hoogste punt van zuivere typing. Het definieert uw premium toetsenbord ervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 			features:
-				'The XX02 Metal keycap features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+				'De XX02 Metal keycap heeft een slank aluminium frame, RGB-verlichting, en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps, en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 			inthebox: [{ count: 1, content: 'Metal Keycap' }],
 			price: 599,
 		},
@@ -111,9 +111,9 @@ export const products: catalog = {
 			nu: true,
 			header: '"Grrr"',
 			subheader: 'Deskmat',
-			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+			text: 'De nieuwe XX99 Mark II toetsenbord is het hoogste punt van zuivere typing. Het definieert uw premium toetsenbord ervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 			features:
-				'The "Grrr" deskmat features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+				'De "Grrr" deskmat heeft een slank aluminium frame, RGB-verlichting, en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps, en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 			inthebox: [
 				{ count: 1, content: 'Deskmat' },
 				{ count: 1, content: 'Carrying Pouch' },
@@ -130,9 +130,9 @@ export const products: catalog = {
 			nu: false,
 			header: 'Mythic',
 			subheader: 'Deskmat',
-			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
+			text: 'De nieuwe XX99 Mark II toetsenbord is het hoogste punt van zuivere typing. Het definieert uw premium toetsenbord ervaring door een evenwichtige diepte en precisie te bieden aan elke toetsaanslag.',
 			features:
-				'The "Mythic" deskmat features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
+				'De "Mythic" deskmat heeft een slank aluminium frame, RGB-verlichting, en hot-swappable switches. Het bevat ook een afneembare USB Type-C kabel, aanpasbare keycaps, en een ingebouwde polssteun voor extra comfort tijdens lange typsessies.',
 			inthebox: [
 				{ count: 1, content: 'Deskmat' },
 				{ count: 1, content: 'Carrying Pouch' },

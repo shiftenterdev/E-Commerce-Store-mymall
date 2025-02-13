@@ -25,7 +25,7 @@ const cartStore = useCartStore()
 					class="mb-4 mt-8 cursor-pointer self-start px-6 font-semibold text-black opacity-60 lg:px-10"
 					data-test="cart-close-button"
 				>
-					Close
+					Sluit
 				</button>
 				<div
 					class="mb-8 flex w-full flex-row items-end justify-between px-6 lg:px-10"
@@ -41,7 +41,7 @@ const cartStore = useCartStore()
 						class="cursor-pointer text-k-dark-grey underline opacity-70 transition hover:opacity-100 active:translate-y-0.5"
 						data-test="cart-delete-all"
 					>
-						Delete All
+						Verwijder alles
 					</p>
 				</div>
 				<div
@@ -49,7 +49,7 @@ const cartStore = useCartStore()
 					class="text-lg text-black opacity-60 lg:text-xl"
 					data-test="cart-empty-message"
 				>
-					No items in cart.
+					Geen items in winkelwagen
 				</div>
 				<div
 					class="mb-10 flex h-full w-full flex-col gap-5 overflow-y-scroll"
@@ -67,7 +67,7 @@ const cartStore = useCartStore()
 					data-test="cart-total-section"
 				>
 					<p class="text-xl font-semibold text-black opacity-50 lg:text-2xl">
-						TOTAL
+						TOTAAL
 					</p>
 					<p class="text-2xl font-bold text-black">
 						${{ cartStore.cartValue }}

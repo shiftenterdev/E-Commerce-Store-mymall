@@ -32,7 +32,7 @@ const props = defineProps<{
 			<div
 				class="mt-2 flex flex-row items-center gap-2 text-sm font-semibold uppercase text-black opacity-50"
 			>
-				<p>shop</p>
+				<p>winkel</p>
 				<img :src="arrowIcon" alt="arrow icon" />
 			</div>
 		</div>

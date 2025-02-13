@@ -5,44 +5,44 @@ import deskmatsImage from '/products/deskmats/grrr-full.webp'
 import { meta, metaContainer } from './meta-types.ts'
 
 export const landingPageMeta: meta = {
-	title: 'Mymall.nl | Mechanical Keyboard Store',
-	ogTitle: 'Mymall.nl | Mechanical Keyboard Store',
+	title: 'Mymall.nl | Mechanische Toetsenbord Store',
+	ogTitle: 'Mymall.nl | Mechanische Toetsenbord Store',
 	description:
-		'We sell custom mechanical keyboards, keycaps and deskmats for your gaming and office setup, right in the heart of Berlin.',
+		'Wij verkopen op maat gemaakte mechanische toetsenborden, keycaps en deskmats voor uw gaming- en kantooropstelling, midden in het hart van Groningen.',
 	ogDescription:
-		'We sell custom mechanical keyboards, keycaps and deskmats for your gaming and office setup, right in the heart of Berlin.',
+		'Wij verkopen op maat gemaakte mechanische toetsenborden, keycaps en deskmats voor uw gaming- en kantooropstelling, midden in het hart van Groningen.',
 	image: bannerImage,
 	ogImage: bannerImage,
 }
 
 export const categoryPageMeta: metaContainer = {
 	keyboards: {
-		title: 'All Mechanical Keyboards | Mymall',
-		ogTitle: 'All Mechanical Keyboards | Mymall',
+		title: 'Alle Mechanische Toetsenborden | Mymall',
+		ogTitle: 'Alle Mechanische Toetsenborden | Mymall',
 		description:
-			'Explore our selection of high quality mechanical keyboards that will elevate your typing experience.',
+			'Ontdek ons assortiment hoogwaardige mechanische toetsenborden die uw typervaring naar een hoger niveau tillen.',
 		ogDescription:
-			'Explore our selection of high quality mechanical keyboards that will elevate your typing experience.',
+			'Ontdek ons assortiment hoogwaardige mechanische toetsenborden die uw typervaring naar een hoger niveau tillen.',
 		image: keyboardsImage,
 		ogImage: keyboardsImage,
 	},
 	keycaps: {
-		title: 'All Custom Keycaps | Mymall',
-		ogTitle: 'All Custom Keycaps | Mymall',
+		title: 'Alle Custom Keycaps | Mymall',
+		ogTitle: 'Alle Custom Keycaps | Mymall',
 		description:
-			'Enjoy typing with style and upgrade your custom mechanical keyboard with our elegant keycaps',
+			'Ontdek ons assortiment hoogwaardige mechanische toetsenborden die uw typervaring naar een hoger niveau tillen.',
 		ogDescription:
-			'Enjoy typing with style and upgrade your custom mechanical keyboard with our elegant keycaps',
+			'Ontdek ons assortiment hoogwaardige mechanische toetsenborden die uw typervaring naar een hoger niveau tillen.',
 		image: keycapsImage,
 		ogImage: keycapsImage,
 	},
 	deskmats: {
-		title: 'All Deskmats | Mymall',
-		ogTitle: 'All Deskmats | Mymall',
+		title: 'Alle Deskmats | Mymall',
+		ogTitle: 'Alle Deskmats | Mymall',
 		description:
-			'Make yourself comfortable in your work or gaming setup with one of our KIIIBS deskmats. Soft and stylish!',
+			'Maak jezelf comfortabel in je werk- of gamingopstelling met een van onze KIIIBS deskmats. Zacht en stijlvol!',
 		ogDescription:
-			'Make yourself comfortable in your work or gaming setup with one of our KIIIBS deskmats. Soft and stylish!',
+			'Maak jezelf comfortabel in je werk- of gamingopstelling met een van onze KIIIBS deskmats. Zacht en stijlvol!',
 		image: deskmatsImage,
 		ogImage: deskmatsImage,
 	},
@@ -51,17 +51,17 @@ export const categoryPageMeta: metaContainer = {
 export const checkoutPageMeta: meta = {
 	title: 'Checkout',
 	ogTitle: 'Checkout',
-	description: 'Complete your purchase.',
-	ogDescription: 'Complete your purchase.',
+	description: 'Voltooi uw aankoop.',
+	ogDescription: 'Voltooi uw aankoop.',
 	image: bannerImage,
 	ogImage: bannerImage,
 }
 
 export const fofPageMeta: meta = {
-	title: '404: Page not found.',
-	ogTitle: '404: Page not found.',
-	description: '404: Page not found.',
-	ogDescription: '404: Page not found.',
+	title: '404: Pagina niet gevonden.',
+	ogTitle: '404: Pagina niet gevonden.',
+	description: '404: Pagina niet gevonden.',
+	ogDescription: '404: Pagina niet gevonden.',
 	image: bannerImage,
 	ogImage: bannerImage,
 }
