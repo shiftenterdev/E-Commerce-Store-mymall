@@ -4,9 +4,9 @@ import { getProduct } from '../data/product-utils.ts'
 import { meta } from '../data/meta-types'
 import { getCategoryPageMeta, getProductPageMeta } from '../data/meta-utils'
 
-function parseRouteId(id: string | string[]): number {
-	if (Array.isArray(id)) return parseInt(id[0])
-	return parseInt(id)
+function parseRouteString(id: string | string[]): string {
+	if (Array.isArray(id)) return id[0]
+	return id
 }
 
 export function handleRouteMeta(metaFunc: () => meta): void {
@@ -46,14 +46,14 @@ export function productRoute(category: string) {
 		// eslint-disable-next-line
 		props: (route: any) => ({
 			category: category,
-			productId: parseInt(route.params.id),
+			productId: route.params.id,
 		}),
 		beforeEnter: (
 			to: RouteLocationNormalized,
 			_: RouteLocationNormalized,
 			next: NavigationGuardNext,
 		) => {
-			const product = getProduct(category, parseRouteId(to.params.id))
+			const product = getProduct(category, parseRouteString(to.params.id))
 			if (!product) {
 				next('/404')
 			} else {

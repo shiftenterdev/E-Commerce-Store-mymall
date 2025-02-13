@@ -18,7 +18,7 @@ const props = defineProps<{
 		</div>
 		<div class="mt-16 flex h-full w-full flex-col lg:ml-24 lg:mt-0">
 			<h2 class="mb-8 text-2xl font-bold tracking-wide text-black">
-				IN THE BOX
+				IN DE BOX
 			</h2>
 			<div
 				class="flex flex-row items-baseline gap-4"

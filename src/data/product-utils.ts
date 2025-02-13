@@ -7,7 +7,7 @@ export function getCount(category: string): number {
 
 export function getSelection(
 	productCategory: string,
-	productId: number,
+	productId: string,
 ): product[] {
 	const items: product[] = []
 
@@ -36,6 +36,6 @@ export function getProductsOfType(category: string): product[] {
 	return []
 }
 
-export function getProduct(category: string, id: number): product | null {
+export function getProduct(category: string, id: string): product | null {
 	return products[category].find((item) => item.id == id) || null
 }

@@ -12,7 +12,7 @@ import { computed } from 'vue'
 
 const props = defineProps<{
 	category: string
-	productId: number
+	productId: string
 }>()
 
 let item = computed(() => {

@@ -6,7 +6,7 @@ import ButtonSolid from '../components/Buttons/button-solid.vue'
 
 const props = defineProps<{
 	productCategory: string
-	productId: number
+	productId: string
 }>()
 
 let items: product[] = []
