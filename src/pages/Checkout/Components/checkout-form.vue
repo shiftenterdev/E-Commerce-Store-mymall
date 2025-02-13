@@ -19,11 +19,22 @@ const formStore = useFormStore()
 			>
 				<TextInputField
 					type="text"
-					:validator="formStore.isValidName"
-					id="name"
-					label="Naam"
-					placeholder="Alex Keebs"
-					error-message="Characters only."
+					:validator="formStore.isValidFirstName"
+					id="firstName"
+					label="Voornaam"
+					placeholder="Alex"
+					error-message="Alleen karakters toegestaan."
+					autocomplete="off"
+					:required="true"
+				/>
+
+				<TextInputField
+					type="text"
+					:validator="formStore.isValidLastName"
+					id="lastName"
+					label="Achternaam"
+					placeholder="Keebs"
+					error-message="Alleen karakters toegestaan."
 					autocomplete="off"
 					:required="true"
 				/>
@@ -34,7 +45,7 @@ const formStore = useFormStore()
 					id="email"
 					label="Email"
 					placeholder="alex@mail.com"
-					error-message="Must be a valid email address."
+					error-message="Moet een geldig e-mailadres zijn."
 					autocomplete="off"
 					:required="true"
 				/>
@@ -45,7 +56,7 @@ const formStore = useFormStore()
 					id="phone"
 					label="Telefoonnummer"
 					placeholder="+31 6 12345678"
-					error-message="Numbers and '+-' only."
+					error-message="Alleen cijfers en '+-' toegestaan."
 					autocomplete="off"
 				/>
 			</div>
@@ -64,8 +75,8 @@ const formStore = useFormStore()
 					id="address"
 					label="Straat"
 					container-class="col-span-2"
-					placeholder="1134 Willams Avenue"
-					error-message="Only characters and ',-/. allowed."
+					placeholder="Kerkstraat 462"
+					error-message="Alleen karakters en ',-/. toegestaan."
 					autocomplete="off"
 					:required="true"
 				/>
@@ -76,7 +87,7 @@ const formStore = useFormStore()
 					id="zip"
 					label="Postcode"
 					placeholder="1000AA"
-					error-message="Only 5 digit numbers allowed."
+					error-message="Alleen 5 cijfers toegestaan."
 					autocomplete="off"
 					max-length="5"
 					:required="true"
@@ -88,7 +99,7 @@ const formStore = useFormStore()
 					id="city"
 					label="Stad"
 					placeholder="Amsterdam"
-					error-message="Must contain non-special characters."
+					error-message="Moet niet-speciaal karakters bevatten."
 					autocomplete="off"
 					:required="true"
 				/>
@@ -99,7 +110,7 @@ const formStore = useFormStore()
 					id="country"
 					label="Land"
 					placeholder="Nederland"
-					error-message="Must contain non-special characters."
+					error-message="Moet niet-speciaal karakters bevatten."
 					autocomplete="off"
 					:required="true"
 				/>

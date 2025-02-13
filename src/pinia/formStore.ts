@@ -5,7 +5,8 @@ const cartStore = useCartStore()
 export const useFormStore = defineStore('form', {
 	state: () => ({
 		bannerState: 'hide',
-		name: '',
+		firstName: '',
+		lastName: '',
 		email: '',
 		phone: '',
 		address: '',
@@ -38,7 +39,8 @@ export const useFormStore = defineStore('form', {
 			}
 
 			const allSet =
-				this.isValidName === 'true' &&
+				this.isValidFirstName === 'true' &&
+				this.isValidLastName === 'true' &&
 				this.isValidEmail === 'true' &&
 				this.isValidPhone !== 'false' &&
 				this.isValidAddress === 'true' &&
@@ -72,9 +74,14 @@ export const useFormStore = defineStore('form', {
 			return false
 		},
 		// eslint-disable-next-line
-		isValidName(state: any) {
-			if (state.name === '') return 'empty'
-			return /^[a-z ,.'-]+$/i.test(state.name) === true ? 'true' : 'false'
+		isValidFirstName(state: any) {
+			if (state.firstName === '') return 'empty'
+			return /^[a-z ,.'-]+$/i.test(state.firstName) === true ? 'true' : 'false'
+		},
+		// eslint-disable-next-line
+		isValidLastName(state: any) {
+			if (state.lastName === '') return 'empty'
+			return /^[a-z ,.'-]+$/i.test(state.lastName) === true ? 'true' : 'false'
 		},
 		// eslint-disable-next-line
 		isValidEmail(state: any) {
