@@ -4,7 +4,7 @@
 		<a
 			@click="$router.go(-1)"
 			class="cursor-pointer text-start font-semibold text-black opacity-60 hover:opacity-100 active:translate-y-0.5"
-			>Go Back</a
+			>Terug</a
 		>
 	</div>
 </template>

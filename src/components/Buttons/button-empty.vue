@@ -15,7 +15,7 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-	content: 'to product',
+	content: 'toevoegen aan winkelwagen',
 	to: '/',
 })
 </script>
