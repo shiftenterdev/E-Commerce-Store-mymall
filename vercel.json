@@ -1,7 +1,8 @@
 {
-    "headers": [
-      {
-        "source": "/(.*).(js|css|png|jpg|jpeg|svg|woff2?|eot|ttf|webp)", 
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "headers": [
+    {
+      "source": "/(.*).(js|css|png|jpg|jpeg|svg|woff2?|eot|ttf|webp)",
         "headers": [
           {
             "key": "Cache-Control",
