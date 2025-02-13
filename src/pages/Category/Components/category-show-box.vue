@@ -14,7 +14,12 @@ const props = defineProps<{
 }>()
 
 const flip = computed(() => {
-	return props.item.id % 2 === 0 ? false : true
+	const idsArray = [
+		'202c5e48-47f6-4893-8075-c1b06ce50577',
+		'202c5e48-47f6-4893-8075-c1b06ce50577',
+		'8aef5703-692d-4d80-a950-1658f1960c73'
+	]
+	return idsArray.includes(props.item.id) ? false : true
 })
 
 let show = ref(false)
