@@ -26,13 +26,13 @@ const formStore = useFormStore()
 		</div>
 		<div class="flex flex-row justify-between">
 			<p class="font-semibold tracking-wide text-black text-opacity-60">
-				TOTAL
+				TOTAAL
 			</p>
 			<p class="text-lg font-bold text-black">€ {{ cartStore.cartValue }}</p>
 		</div>
 		<div class="flex flex-row justify-between">
 			<p class="font-semibold tracking-wide text-black text-opacity-60">
-				SHIPPING
+				VERZENDKOSTEN
 			</p>
 			<p
 				class="text-lg font-bold text-black"
@@ -46,16 +46,16 @@ const formStore = useFormStore()
 		</div>
 		<div class="flex flex-row justify-between">
 			<p class="font-semibold tracking-wide text-black text-opacity-60">
-				VAT (INCLUDED)
+				BTW (INGEBOUGD)
 			</p>
 			<p class="text-lg font-bold text-black">€ {{ cartStore.getVat }}</p>
 		</div>
 		<div class="mt-4 flex flex-row justify-between">
-			<p class="font-black tracking-wide text-black">GRAND TOTAL</p>
+			<p class="font-black tracking-wide text-black">GRANDE TOTAAL</p>
 			<p class="text-lg font-bold text-black">€ {{ cartStore.getGrandTotal }}</p>
 		</div>
 		<ButtonSolid
-			content="continue & pay"
+			content="continue & betalen"
 			color="light"
 			class="mt-8 self-center font-bold"
 			@click="formStore.submit()"
