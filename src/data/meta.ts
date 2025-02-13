@@ -65,3 +65,10 @@ export const fofPageMeta: meta = {
 	image: bannerImage,
 	ogImage: bannerImage,
 }
+
+export const aboutPageMeta: meta = {
+	title: 'Over ons',
+	ogTitle: 'Over ons',
+	description: 'Over ons',
+	ogDescription: 'Over ons',
+}

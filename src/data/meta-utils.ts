@@ -3,6 +3,7 @@ import {
 	categoryPageMeta,
 	checkoutPageMeta,
 	fofPageMeta,
+	aboutPageMeta,
 } from './meta'
 import { meta } from './meta-types'
 import { capitalize } from '../utils/utilities'
@@ -35,4 +36,8 @@ export function getCheckoutPageMeta(): meta {
 
 export function get404PageMeta(): meta {
 	return fofPageMeta
+}
+
+export function getAboutPageMeta(): meta {
+	return aboutPageMeta
 }

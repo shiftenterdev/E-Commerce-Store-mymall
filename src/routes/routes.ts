@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { categoryRoute, productRoute, handleRouteMeta } from './route-utils'
 import {
 	get404PageMeta,
+	getAboutPageMeta,
 	getCheckoutPageMeta,
 	getLandingPageMeta,
 } from '../data/meta-utils'
@@ -18,6 +19,11 @@ const routes = [
 		path: '/checkout',
 		component: () => import('../pages/Checkout/checkout-page.vue'),
 		beforeEnter: () => handleRouteMeta(getCheckoutPageMeta),
+	},
+	{
+		path: '/about',
+		component: () => import('../pages/About/about-page.vue'),
+		beforeEnter: () => handleRouteMeta(getAboutPageMeta),
 	},
 	{
 		path: '/404',

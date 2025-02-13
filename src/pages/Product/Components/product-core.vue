@@ -34,7 +34,7 @@ const props = defineProps<{
 			<p class="mt-6 text-center text-black opacity-60 lg:pr-20 lg:text-start">
 				{{ props.item.text }}
 			</p>
-			<p class="my-8 text-xl font-bold text-black">$ {{ props.item.price }}</p>
+			<p class="my-8 text-xl font-bold text-black">€ {{ props.item.price }}</p>
 			<ButtonSolid
 				@click="cartStore.addToCart(props.item)"
 				color="light"

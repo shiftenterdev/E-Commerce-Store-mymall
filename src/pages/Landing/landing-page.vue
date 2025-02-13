@@ -5,12 +5,14 @@ import CategoryBoxes from '../../components/Category-Box/category-box-container.
 import Footer from '../../components/footer-global.vue'
 import Info from '../../components/info-section.vue'
 import Grid from './Components/landing-grid.vue'
+import Notice from '../../components/notice-section.vue'
 </script>
 
 <template>
 	<div
 		class="main-container flex h-full w-screen flex-col items-center bg-white"
 	>
+		<Notice />
 		<Navigation color="k-black" />
 		<main class="h-full w-screen">
 			<LandingHero />

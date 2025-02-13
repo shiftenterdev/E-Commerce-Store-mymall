@@ -70,7 +70,7 @@ const cartStore = useCartStore()
 						TOTAAL
 					</p>
 					<p class="text-2xl font-bold text-black">
-						${{ cartStore.cartValue }}
+						€ {{ cartStore.cartValue }}
 					</p>
 				</div>
 				<ButtonSolid
@@ -79,7 +79,7 @@ const cartStore = useCartStore()
 					class="mb-10"
 					add="font-bold"
 					color="light"
-					content="Checkout"
+					content="Naar betaling"
 					@click="cartStore.cartOff"
 					data-test="cart-checkout-button"
 				/>

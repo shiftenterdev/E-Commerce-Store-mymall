@@ -27,7 +27,7 @@ const props = defineProps<{
 					{{ props.cartItem.header }}
 				</p>
 				<p class="lg:text-md text-sm font-bold text-k-black opacity-80">
-					$ {{ props.cartItem.price }}
+					€ {{ props.cartItem.price }}
 				</p>
 			</div>
 		</div>

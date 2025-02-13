@@ -53,6 +53,11 @@ import instagramIcon from '/icons/instagram.svg'
 						to="/deskmats"
 						>Deskmats
 					</router-link>
+					<router-link
+						class="font-semibold uppercase tracking-wider text-white transition duration-300 hover:text-k-main"
+						to="/about"
+						>Over ons
+					</router-link>
 				</nav>
 			</div>
 			<div

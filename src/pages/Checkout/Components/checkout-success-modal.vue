@@ -83,7 +83,7 @@ onBeforeUnmount(() => {
 									{{ cartStore.getFirstItem.product.header }}
 								</p>
 								<p class="text-lg font-bold text-black opacity-60">
-									${{ cartStore.getFirstItem.product.price }}
+									€{{ cartStore.getFirstItem.product.price }}
 								</p>
 							</div>
 							<p
@@ -113,7 +113,7 @@ onBeforeUnmount(() => {
 								Grande Totaal
 							</p>
 							<p class="text-md font-semibold lg:text-lg">
-								$ {{ cartStore.getGrandTotal }}
+								€ {{ cartStore.getGrandTotal }}
 							</p>
 						</div>
 					</div>
