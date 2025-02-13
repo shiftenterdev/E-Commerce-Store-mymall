@@ -45,7 +45,7 @@ export const products: catalog = {
 			price: 599,
 		},
 		{
-			id: '202c5e48-47f6-4893-8075-c1b06ce50577',
+			id: '202c5e48-47f6-4893-8075-c1b06ce50579',
 			category: 'keyboards',
 			src: '/products/keyboards/keeb1-show.webp',
 			topSrc: '/products/keyboards/mx-detail.webp',
@@ -68,7 +68,7 @@ export const products: catalog = {
 	],
 	keycaps: [
 		{
-			id: '202c5e48-47f6-4893-8075-c1b06ce50577',
+			id: '202c5e48-47f6-4893-8075-c1b06ce5057a',
 			category: 'keycaps',
 			src: '/products/keycaps/cap2-2.webp',
 			topSrc: '/products/keycaps/cap2-3.webp',
@@ -84,7 +84,7 @@ export const products: catalog = {
 			price: 599,
 		},
 		{
-			id: '8aef5703-692d-4d80-a950-1658f1960c73',
+			id: '8aef5703-692d-4d80-a950-1658f1960c74',
 			category: 'keycaps',
 			src: '/products/keycaps/cap1-2.webp',
 			topSrc: '/products/keycaps/cap1-3.webp',
@@ -102,7 +102,7 @@ export const products: catalog = {
 	],
 	deskmats: [
 		{
-			id: '202c5e48-47f6-4893-8075-c1b06ce50577',
+			id: '202c5e48-47f6-4893-8075-c1b06ce5057b',
 			category: 'deskmats',
 			src: '/products/deskmats/mat1-show.webp',
 			topSrc: '/products/deskmats/grrr-full.webp',
@@ -121,7 +121,7 @@ export const products: catalog = {
 			price: 599,
 		},
 		{
-			id: '8aef5703-692d-4d80-a950-1658f1960c73',
+			id: '8aef5703-692d-4d80-a950-1658f1960c75',
 			category: 'deskmats',
 			src: '/products/deskmats/mat2-show.webp',
 			topSrc: '/products/deskmats/deskmat-chicken.webp',
