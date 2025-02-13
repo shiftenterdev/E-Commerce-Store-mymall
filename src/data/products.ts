@@ -14,7 +14,7 @@ export const products: catalog = {
 			subheader: 'Keyboard',
 			text: 'The new XX59 keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 			features:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+				'The XX59 keyboard features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 			inthebox: [
 				{ count: 1, content: 'Keyboard' },
 				{ count: 1, content: 'KIIBS Carrying Case' },
@@ -35,7 +35,7 @@ export const products: catalog = {
 			subheader: 'Keyboard',
 			text: 'The new ZX9 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 			features:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+				'The ZX9 Mark II keyboard features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 			inthebox: [
 				{ count: 1, content: 'Keyboard' },
 				{ count: 1, content: 'KIIBS Carrying Case' },
@@ -56,7 +56,7 @@ export const products: catalog = {
 			subheader: 'Keyboard',
 			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 			features:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+				'The XX99 Mark II keyboard features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 			inthebox: [
 				{ count: 1, content: 'Keyboard' },
 				{ count: 1, content: 'KIIBS Carrying Case' },
@@ -79,7 +79,7 @@ export const products: catalog = {
 			subheader: 'Keycap',
 			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 			features:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+				'The XX01 Metal keycap features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 			inthebox: [{ count: 1, content: 'Metal Keycap' }],
 			price: 599,
 		},
@@ -95,7 +95,7 @@ export const products: catalog = {
 			subheader: 'Keycap',
 			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 			features:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+				'The XX02 Metal keycap features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 			inthebox: [{ count: 1, content: 'Metal Keycap' }],
 			price: 599,
 		},
@@ -113,7 +113,7 @@ export const products: catalog = {
 			subheader: 'Deskmat',
 			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 			features:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+				'The "Grrr" deskmat features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 			inthebox: [
 				{ count: 1, content: 'Deskmat' },
 				{ count: 1, content: 'Carrying Pouch' },
@@ -132,7 +132,7 @@ export const products: catalog = {
 			subheader: 'Deskmat',
 			text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 			features:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+				'The "Mythic" deskmat features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 			inthebox: [
 				{ count: 1, content: 'Deskmat' },
 				{ count: 1, content: 'Carrying Pouch' },

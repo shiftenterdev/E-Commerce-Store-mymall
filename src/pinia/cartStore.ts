@@ -51,7 +51,7 @@ export const useCartStore = defineStore('cart', {
 				subheader: 'Deskmat',
 				text: 'The new XX99 Mark II keyboard is the pinnacle of pristine typing. It redefines your premium keyboard experience by providing a balanced depth and precision to each press of a key.',
 				features:
-					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae semper quis lectus nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Rutrum quisque non tellus orci ac auctor augue mauris augue.',
+					'The "Grrr" deskmat features a sleek aluminum frame, RGB backlighting, and hot-swappable switches. It also includes a detachable USB Type-C cable, customizable keycaps, and a built-in wrist rest for added comfort during long typing sessions.',
 				inthebox: [
 					{ count: 1, content: 'Deskmat' },
 					{ count: 1, content: 'Carrying Pouch' },
