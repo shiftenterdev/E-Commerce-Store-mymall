@@ -9,7 +9,7 @@
 
 <style scoped>
 .notice {
-    background-color: #f0f0f0;
+    background-color: red;
     padding: 10px;
     border-radius: 0;
     text-align: center;
